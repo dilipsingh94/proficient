@@ -3,10 +3,10 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
-        <h2 for="">External Users Not Allowed !!!</h2>
+        {{-- <h2 for="">External Users Not Allowed !!!</h2>
         <br>
-        <span style='font-size:150px;'>&#128520;</span>
-        {{-- <div class="col-md-8">
+        <span style='font-size:150px;'>&#128520;</span> --}}
+        <div class="col-md-8">
             <div class="card">
                 <div class="card-header">{{ __('Register') }}</div>
 
@@ -74,7 +74,7 @@
                     </form>
                 </div>
             </div>
-        </div> --}}
+        </div>
     </div>
 </div>
 @endsection
