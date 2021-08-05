@@ -116,7 +116,7 @@
       "brandSetting":{
           "brandName":"Proficient Photography",
           "brandSubTitle":"Instant Replies",
-          "brandImg":"https://content3.jdmagicbox.com/comp/delhi/j9/011pxx11.xx11.180524144506.x1j9/catalogue/proficient-photography-uttam-nagar-delhi-wedding-photographers-s70o5pc1w6.jpg",
+          "brandImg":"https://proficientphotography.com/master/images/favicon.png",
           "welcomeText":"Hi there!\nWelcome to Proficient Photography.\nThis is Tarun Mehra, How can I help you?",
           "messageText":"Hi there!",
           "backgroundColor":"#0a5f54",
