@@ -40,7 +40,7 @@
                                             <td>{{ $item->description }}</td>
                                             <td>{{ $item->id }}</td>
                                             <td class="text-center">
-                                                <img src="{{ $item->image }}" height="50px" width="50px" alt="">
+                                                <img src="{{ $item->image }}" height="50px" width="50px" alt="uploaded_image">
                                             </td>
                                             <td class="text-center">
                                                 <form action="{{ url('/delete/'.$item->id) }}" method="POST">

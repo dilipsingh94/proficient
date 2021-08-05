@@ -64,7 +64,7 @@
                 <div>
                     <section>
                         <h2>PROFICIENT PHOTOGRAPHY</h2>
-                        <p>Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum eget quis orci mattis aliquet. Maecenas fringilla et ante at lorem et ipsum. Dolor nulla eu bibendum sapien. Donec non pharetra dui. Nulla consequat, ex ut suscipit rutrum, mi dolor tincidunt erat, et scelerisque turpis ipsum.</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint labore voluptatibus perferendis exercitationem ipsa alias accusantium, tempore nisi voluptates eaque illum, placeat a, odit laborum architecto dolore? Ad, animi sequi.</p>
                     </section>
                     <section>
                         <h2>Follow Us on ...</h2>
@@ -75,9 +75,9 @@
                             <li><a href="#" class="icon fa-youtube"><span class="label">Youtube</span></a></li>
                         </ul>
                     </section>
-                    {{-- <p class="copyright">
-                        &copy; Unttled. Design: <a href="http://html5up.net">HTML5 UP</a>.
-                    </p> --}}
+                    <p class="copyright">
+                        &copy; managed by: <a href="javascript:void(0)">DKS Consultant</a>.
+                    </p>
                 </div>
                 <div>
                     <section>
@@ -95,5 +95,43 @@
             </div>
         </footer>
     </div>
+    
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?53208';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+      "enabled":true,
+      "chatButtonSetting":{
+          "backgroundColor":"#4dc247",
+          "ctaText":"Message Us",
+          "borderRadius":"25",
+          "marginLeft":"0",
+          "marginBottom":"50",
+          "marginRight":"50",
+          "position":"right"
+      },
+      "brandSetting":{
+          "brandName":"Proficient Photography",
+          "brandSubTitle":"Instant Replies",
+          "brandImg":"https://content3.jdmagicbox.com/comp/delhi/j9/011pxx11.xx11.180524144506.x1j9/catalogue/proficient-photography-uttam-nagar-delhi-wedding-photographers-s70o5pc1w6.jpg",
+          "welcomeText":"Hi there!\nWelcome to Proficient Photography.\nThis is Tarun Mehra, How can I help you?",
+          "messageText":"Hi there!",
+          "backgroundColor":"#0a5f54",
+          "ctaText":"Start Chat",
+          "borderRadius":"25",
+          "autoShow":false,
+          "phoneNumber":"919654596995"
+      }
+    };
+        s.onload = function() {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+    </script>
+
 </body>
 </html>
